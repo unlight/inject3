@@ -1,4 +1,4 @@
-let dependencies = new Map();
+const dependencies = new Map();
 /**
  * Mock a dependency for unit testing
  * @param token The injection token
@@ -17,15 +17,15 @@ function clear() {
  * @param factory Factory function that returns the dependency
  * @returns The dependency or a mock object if the dependency was mocked using mock()
  */
-export const inject = <T>(token: any, factory: () => T): T => {
-    let dependency = dependencies.get(token);
+export function inject<T>(token: any, factory: () => T): T {
+    const dependency = dependencies.get(token);
     if (dependency) {
         return dependency();
     }
     return factory();
-};
+}
 
 export const injector = {
-    mock: mock,
-    clear: clear,
+    mock,
+    clear,
 };
