@@ -68,7 +68,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unlight/inject.git"
+    "url": "git+https://github.com/unlight/inject3.git"
   },
   "publishConfig": {
     "access": "public"
