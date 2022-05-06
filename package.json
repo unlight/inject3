@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Inject a dependency",
   "types": "./index.d.ts",
-  "main": "./cjs",
+  "main": "./cjs/index.js",
   "module": "./esm",
   "exports": {
     ".": {
-      "import": "./esm",
-      "require": "./cjs"
+      "import": "./esm/index.mjs",
+      "require": "./cjs/index.js"
     }
   },
   "keywords": [
