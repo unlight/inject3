@@ -2,7 +2,13 @@
 
 Inject a dependency (service locator pattern).
 
-## USAGE
+## Install
+
+```sh
+npm install --save-dev inject3
+```
+
+## Usage
 
 ```ts
 // app.ts
@@ -16,7 +22,3 @@ injector.mock('fs', () => ({
   readFileSync: () => 'result of call of fs.readFileSync()',
 }));
 ```
-
-## CHANGELOG
-
-See [CHANGELOG](CHANGELOG.md)

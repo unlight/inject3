@@ -1,6 +1,5 @@
-/* eslint-disable tslint/config */
 import { inject, injector } from '.';
-import * as expect from 'expect';
+import expect from 'expect';
 
 afterEach(() => {
   injector.clear();
