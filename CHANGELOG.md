@@ -1,3 +1,10 @@
+### [1.1.1](https://github.com/unlight/inject3/compare/v1.1.0...v1.1.1) (2022-05-06)
+
+
+### Bug Fixes
+
+* ESM resolve ([c2875a7](https://github.com/unlight/inject3/commit/c2875a77030cf4738be4164ec223f09416e59e4b))
+
 ## [1.1.0](https://github.com/unlight/inject3/compare/v1.0.0...v1.1.0) (2022-05-06)
 
 
