@@ -22,3 +22,7 @@ injector.mock('fs', () => ({
   readFileSync: () => 'result of call of fs.readFileSync()',
 }));
 ```
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) (c) 2024
